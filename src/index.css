@@ -1,3 +1,87 @@
 @import "tailwindcss";
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap'); */
 @import "flowbite/src/themes/default";
+
+
+/* Custom Pagination Container */
+.custom-pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Override Swiper Default */
+.custom-pagination .swiper-pagination-bullet {
+  width: 30px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: #d1d5db !important;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* Active Bar */
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #0f766e !important;
+}
+
+@media (max-width: 412px){
+  .custom-pagination .swiper-pagination-bullet {
+  width: 20px;
+}
+}
+
+@media (max-width: 330px){
+  .custom-pagination .swiper-pagination-bullet {
+  width: 18px;
+}
+}
+
+/* Mentor Slider  */
+
+/* Custom Pagination Container */
+.custom-pagination-mentor {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Override Swiper Default */
+.custom-pagination-mentor .swiper-pagination-bullet {
+  width: 30px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: #d1d5db !important;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* Active Bar */
+.custom-pagination-mentor .swiper-pagination-bullet-active {
+  background-color: #0f766e !important;
+}
+
+@media (max-width: 412px){
+  .custom-pagination-mentor .swiper-pagination-bullet {
+  width: 20px;
+}
+}
+
+@media (max-width: 330px){
+  .custom-pagination-menotr .swiper-pagination-bullet {
+  width: 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
